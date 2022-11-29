@@ -24,5 +24,9 @@
         "titleBar.inactiveBackground": "#31386d99",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.remoteColor": "#31386d"
+    "peacock.remoteColor": "#31386d",
+    "cSpell.words": [
+        "astro",
+        "paikube"
+    ]
 }
