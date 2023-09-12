@@ -1,0 +1,23 @@
+<form>
+    <input id="files" type="file" multiple />     
+</form>
+<script>
+const sendFile = async (file) => {
+    const res = await fetch('/upload', {
+        method: 'POST',
+        body: file
+    })
+    const result = await res.json()
+    console.dir(result)
+}
+const input = document.getElementById('files')
+input.addEventListener('change', (e) => {
+    const formData = new FormData()
+    formData.append(
+    'files',
+    e.target.files[0]
+  );
+  sendFile(formData)
+})
+
+</script>

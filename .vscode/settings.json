@@ -22,11 +22,15 @@
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.border": "#31386d",
         "titleBar.inactiveBackground": "#31386d99",
-        "titleBar.inactiveForeground": "#e7e7e799"
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "statusBar.debuggingBackground": "#6d6631",
+        "statusBar.debuggingBorder": "#6d6631",
+        "statusBar.debuggingForeground": "#e7e7e7"
     },
     "peacock.remoteColor": "#31386d",
     "cSpell.words": [
         "astro",
-        "paikube"
+        "paikube",
+        "Roboto"
     ]
 }
